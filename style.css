@@ -6,18 +6,31 @@
 body {
     background-color: var(--primary-bg-col);
     color: var(--primary-text-col);
+
+    margin: 0;
+    padding: 0;
 }
 
-.first-glitch .glitched-img {
+/* unused */
+/* .first-glitch .glitched-img {
     width: 500px;
     position: absolute;
+} */
+
+section {
+    width: 100%;
+    margin: auto;
 }
 
-.second-glitch {
+.first-glitch {
+    padding: 5%;
+    margin: auto;
+
     display: grid;
     grid-template-rows: 20px auto 100px;
 }
 
-.second-glitch .glitched-img {
-    width: 500px;
+.first-glitch .glitched-img {
+    width: 400px;
+    filter: contrast(200%)
 }

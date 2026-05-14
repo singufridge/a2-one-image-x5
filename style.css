@@ -1,0 +1,14 @@
+:root {
+    --primary-bg-col: #1c1a1d;
+    --primary-text-col: #6ee956;
+}
+
+body {
+    background-color: var(--primary-bg-col);
+    color: var(--primary-text-col);
+}
+
+.first-glitch .glitched-img {
+    width: 500px;
+    position: absolute;
+}

@@ -12,3 +12,12 @@ body {
     width: 500px;
     position: absolute;
 }
+
+.second-glitch {
+    display: grid;
+    grid-template-rows: 20px auto 100px;
+}
+
+.second-glitch .glitched-img {
+    width: 500px;
+}

@@ -17,8 +17,9 @@ body {
     position: absolute;
 } */
 
+/* 60% width container for my images and labels to live in */
 #container {
-    width: 70%;
+    width: 60%;
     margin: auto;
     margin-top: 7%;
 
@@ -36,4 +37,14 @@ body {
 .first-glitch .glitched-img {
     width: 400px;
     filter: contrast(200%)
+}
+
+/* class for my labels/captions section */
+.labels {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    
+    text-align: end;
+    margin-left: auto;
+    padding-left: 3%;
 }

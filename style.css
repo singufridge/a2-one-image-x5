@@ -33,6 +33,20 @@ h1 {
     flex-direction: row;
 }
 
+/* class for my labels/captions section */
+.labels {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    
+    text-align: end;
+    margin-left: auto;
+    padding-left: auto;
+
+    width: 30%;
+}
+
+/* TRANSFORMATIONS */
+
 /* transformation-1: container for first image, format into a grid, make rows small so that image repeats and overlaps */
 .first-glitch {
     display: grid;
@@ -50,14 +64,13 @@ h1 {
     filter: contrast(200%)
 }
 
-/* class for my labels/captions section */
-.labels {
-    display: grid;
-    grid-template-rows: auto auto auto;
-    
-    text-align: end;
-    margin-left: auto;
-    padding-left: auto;
+.second-glitch {
+    display: flex;
+    flex-direction: column;
+}
 
-    width: 30%;
+.second-glitch div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }

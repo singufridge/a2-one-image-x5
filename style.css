@@ -33,9 +33,14 @@ body {
     grid-template-rows: 20px auto 100px;
 }
 
-/* transformation-1: handled scale, applied high contrast filter */
+/* transformation-1: handled sizing/cropping, applied high contrast filter */
 .first-glitch .glitched-img {
     width: 400px;
+    height: 200px;
+
+    object-fit: cover;
+    object-position: top;
+
     filter: contrast(200%)
 }
 

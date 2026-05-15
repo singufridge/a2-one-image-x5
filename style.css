@@ -51,5 +51,7 @@ body {
     
     text-align: end;
     margin-left: auto;
-    padding-left: 3%;
+    padding-left: auto;
+
+    width: 30%;
 }

@@ -62,17 +62,20 @@ h1 {
     filter: contrast(200%)
 }
 
+/* transformation-2: grid container for second image, specifying the number of columns and rows this time */
 .second-glitch {
     display: grid;
     grid-template-columns: repeat(2, 200px);
     grid-template-rows: repeat(3, 200px);
-    gap: 16px;
+    gap: 0;
 }
 
+/* transformation-2: so that images do not overflow */
 .second-glitch div {
     overflow: clip;
 }
 
+/* transformation-2: specifications to fit the image, added slight blur */
 .second-glitch img {
     display: block;
 
@@ -80,4 +83,6 @@ h1 {
     height: 100%;
 
     object-fit: cover;
+
+    filter: blur(0.2px)
 }

@@ -112,6 +112,7 @@ h1 {
 
 /* transformation 4: set image as background of the div so that text can lay over it */
 .fourth-glitch {
+    container-type: inline-size;
     width: 400px;
     height: 500px;
 
@@ -124,4 +125,6 @@ h1 {
 
     text-align: center;
     line-height: 0.9;
+
+    font-size: 48cqw;
 }

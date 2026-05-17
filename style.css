@@ -117,6 +117,7 @@ h1 {
     height: 500px;
 
     background-image: url(images/a2-glitch-photo.jpg);
+    filter: saturate(200%) contrast(200%);
 }
 
 .fourth-glitch h2 {
@@ -125,6 +126,10 @@ h1 {
 
     text-align: center;
     line-height: 0.9;
+    font-weight: 900;
 
-    font-size: 48cqw;
+    font-size: 47cqw;
+
+    mix-blend-mode: difference;
+    filter:invert();
 }

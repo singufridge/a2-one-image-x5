@@ -87,17 +87,25 @@ h1 {
     filter: blur(0.2px)
 }
 
-/* transformation 3 */
+/* transformation 3: setting the size of the image and cropping it */
 .third-glitch {
-    width: 430px;
+    width: 400px;
     height: 500px;
 
     overflow: hidden;
 }
 
+/* transformation 3: ^^ */
 .third-glitch img {
     width: 100%;
     height: 100%;
 
     object-fit: cover;
+}
+
+/* transformation 3: on hover, image will stretch, the cursor will change, and the colours of the image invert */
+.third-glitch img:hover {
+    object-fit: fill;
+    cursor: wait;
+    filter: invert();
 }

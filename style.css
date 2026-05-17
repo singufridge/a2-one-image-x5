@@ -109,3 +109,19 @@ h1 {
     cursor: wait;
     filter: invert();
 }
+
+/* transformation 4: set image as background of the div so that text can lay over it */
+.fourth-glitch {
+    width: 400px;
+    height: 500px;
+
+    background-image: url(images/a2-glitch-photo.jpg);
+}
+
+.fourth-glitch h2 {
+    margin: 0;
+    padding: 0;
+
+    text-align: center;
+    line-height: 0.9;
+}

@@ -149,13 +149,31 @@ h1 {
     height: 500px;
 
     overflow: hidden;
+
+    position: relative;
 }
 
-.fifth-glitch img {
+/* .fifth-glitch div {
     animation-name: shakeAnimation;
     animation-duration: 1s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: normal;
     animation-fill-mode: both;
+} */
+
+.glitched-img-base {
+    transform: translate(-1200px, -400px) scale(50%);
+}
+
+.glitched-img-red {
+    transform: translate(-1180px, -380px) scale(50%);
+    position: absolute;
+    z-index: 10;
+}
+
+.glitched-img-blue {
+    transform: translate(-1220px, -420px) scale(50%);
+    position: absolute;
+    z-index: 11;
 }

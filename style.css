@@ -117,9 +117,12 @@ h1 {
     height: 500px;
 
     background-image: url(images/a2-glitch-photo.jpg);
+    background-size: 80%;
+    background-position: 220px;
     filter: saturate(200%) contrast(200%);
 }
 
+/* transformation 4: scale text to parent container, set blend mode to difference */
 .fourth-glitch h2 {
     margin: 0;
     padding: 0;
@@ -131,5 +134,4 @@ h1 {
     font-size: 47cqw;
 
     mix-blend-mode: difference;
-    filter:invert();
 }

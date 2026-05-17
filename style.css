@@ -109,3 +109,30 @@ h1 {
     cursor: wait;
     filter: invert();
 }
+
+/* transformation 4: set image as background of the div so that text can lay over it */
+.fourth-glitch {
+    container-type: inline-size;
+    width: 400px;
+    height: 500px;
+
+    background-image: url(images/a2-glitch-photo.jpg);
+    background-position: 180% 190%;
+    filter: saturate(200%) contrast(400%);
+}
+
+/* transformation 4: scale text to parent container, set blend mode to difference */
+.fourth-glitch h2 {
+    margin: 0;
+    padding: 0;
+
+    text-align: center;
+    line-height: 0.9;
+    text-shadow: 0 6px 12px var(--primary-text-col);
+
+    font-weight: 900;
+    font-size: 47cqw;
+
+    mix-blend-mode:luminosity;
+    opacity: 50%;
+}
